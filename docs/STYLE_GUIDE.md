@@ -62,16 +62,20 @@ A Code Snippet README doc has these major sections:
   * A short bulleted list of what the reader is expected to learn through this example
 * Before you Begin
   * List out any steps required to prepare for this example and how to achieve them if they do not
+    
     **Example** Have an Apollo Account, if you don't have one go [here]().
   * List any Pre-requisites
+    
     **Example** Java 8 must be installed
 * Running this Sample
   * Provides the details.
   * Contains appropriate headings and subheadings as needed to make the content easy to read
   * Use Screenshots when they clarify a point, they are not needed at ever step.  
   * Describe what success looks like after every major step in the process
+      
       **Example** You should now see that "Connected" has been printed to the terminal window of your application
   * End this section with any clean up required
+    
     **Example** Don't forget to terminate the Apollo instance to prevent any additional charges
 
 ## Writing a Project or Tool Document
@@ -82,8 +86,10 @@ A Code Snippet README doc has these major sections:
   * A short bulleted list of what the reader is expected to learn through this example
 * Before you Begin
   * List out any steps required to prepare for this example and how to achieve them if they do not
+    
     **Example** Have an Apollo Account, if you don't have one go [here]().
   * List any Pre-requisites
+    
     **Example** Java 8 must be installed
 * Building this Sample
   * Provides the details on how to build this sample
@@ -94,8 +100,10 @@ A Code Snippet README doc has these major sections:
   * Contains appropriate headings and subheadings as needed to make the content easy to read
   * Use Screenshots when they clarify a point, they are not needed at ever step.  
   * Describe what success looks like after every major step in the process
+      
       **Example** You should now see that "Connected" has been printed to the terminal window of your application
   * End this section with any clean up required
+    
     **Example** Don't forget to terminate the Apollo instance to prevent any additional charges
 
 ## General Style Guidelines
@@ -105,7 +113,9 @@ When writing content for this site it is fair to assume that readers are technic
 * If a new concept or term is used as part of the example then provide a brief explaination or link to the explaination
 * These are not meant to be sales brochures so do not write these examples as a product pitch.  Avoid superlatives such as "the best", "amazing", "fantastic", and so on as they reduce the validity with which your writing is received.  
 * Use active voice when possible in the content
+    
     **Active (Preferred)** "The Client writes a record to the database"
+    
     **Passive (Discouraged)** "A record was written to the database by the client"
 * Speak to the reader in an informal way and use second person pronouns (e.g. you) not first person (e.g. I or we).
 * Speak in the present tense 
