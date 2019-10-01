@@ -21,17 +21,19 @@ Properly planning an example will save a large amount of your time during the su
 
 All DataStax examples are hosted on the DataStax Examples GitHub repository where they can be accessed, reviewed, and updated by any community member with access.  
 
-To submit an example:
+To create an example:
 
-   1. Create a new repository in the INSERT REPO HERE which can be cloned from XXXX to get all the basic structure needed
-   2. Read the [Style Guide](./docs/STYLE_GUIDE.md)
-   3. Prepare your submission according to the style guide
-   4. Ensure that your project has all the requirements needed to be accepted according to the [Requirements](./docs/REQUIREMENTS.md) guide.
-   5. Submit it here https://forms.gle/iqxydtgSKjBrL1Z86
-   6. After you have submitted your example you will be contacted by a designated representative which will help guide your submission through the [Review Process](./docs/REVIEW_PROCESS.md).
-   7. After the submission has been approved it will be published.
+   1. Create a new repository in the [DataStax Examples repo](https://github.com/DataStax-Examples) by clicking on the New Button.
+   2. You can then choose to create an empty repo or clone the `datastax-examples-template` repo (recommended) which has all the basic files required.
+   3. You can then clone this repository locally using
+   4. Read the [Style Guide](./docs/STYLE_GUIDE.md)
+   5. Prepare your submission according to the style guide
+   6. Ensure that your project has all the requirements needed to be accepted according to the [Requirements](./docs/REQUIREMENTS.md) guide.
+   7. Submit it here https://forms.gle/iqxydtgSKjBrL1Z86
+   8. After you have submitted your example you will be contacted by a designated representative which will help guide your submission through the [Review Process](./docs/REVIEW_PROCESS.md).
+   9. After the submission has been approved it will be published.
 
-## Updating an Example
+To update an example:
 
 All DataStax examples are updated based on a pull requests.  Email xxx@datastax.com with the example being updated, the PR number, and a brief description of the changes.  A reviewer will then be assigned to review your change and merge it into the `master` branch.
  

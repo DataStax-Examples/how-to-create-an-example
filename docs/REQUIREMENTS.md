@@ -4,9 +4,9 @@ Below is a checklist of the requirements upon which a code example is reviewed.
 ## Example Overview
 - [ ] The example works as explained
 - [ ] The repository provides a well thought out example of how to use a feature(s) specified
-- [ ] The code is well structured and clean, without unneeded or unneccesary sections
+- [ ] The code is well structured and clean, without unneeded or unnecessary sections
 - [ ] The intent of the code is clear and well commented
-- [ ] If required any neccesary unit tests are included and pass
+- [ ] If required any necessary unit tests are included and pass
 
 ## GitHub Repository Structure
 - [ ] The repository file structure is appropriate for the code example submitted
