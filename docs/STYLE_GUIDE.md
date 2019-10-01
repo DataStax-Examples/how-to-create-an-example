@@ -30,7 +30,7 @@ Becasue there is such a wide variety of potential languages and projects that wi
 
 While no explicit folder structure is specified their are a few files which are required to be in the root of the repository:
 
-* README.md - This is the central narrative describing the details of how the example works.  For a detailed overview of what should be included in the README checkout out the [## README Guidelines](##-README-Guidelines)
+* README.md - This is the central narrative describing the details of how the example works.  For a detailed overview of what should be included in the README checkout out the [README Guidelines](##-README-Guidelines)
 
 * LICENSE.md - The license for the repository.  This must be an Open Source License, preferrably Apache 2.0 or MIT
   
