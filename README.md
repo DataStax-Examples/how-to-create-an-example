@@ -1,20 +1,24 @@
-# datastax-examples-template
-This a sample template repo for contributions to the DataStax Examples platform.  This provides the minimum set of items needed to create a new example for submission to the DataStax Examples platform.
+# How to Create an Example for the DataStax Examples Platform
+## Introduction
+Beyond the official documentation there are endless possibilities for combining tools, platforms, languages and products to build really powerful and amazing products on top of the DataStax suite of products. Ultimately, everything we build is a unique combination of these elements, but most projects share pieces in common so by submitting and example you can share your experience and help others who are solving similar problems.
 
-## Cloning this Repo to a New Repo
-Open Terminal.
+Examples can be short code snippets or complete end to end workflow projects.  In every case they provide context for using one or more of the DataStax Suite of products in the real world and show how to solve a particular problem not discussed in the official documentation.
 
-1) Create a bare clone of the repository.
+## What Makes a Good Example
 
-`$ git clone --bare https://github.com/bechbd/datastax-examples-template.git`
+INSERT CONTENT HERE
 
-2) Mirror-push to the new repository.`
+## Submitting an Example
 
-`$ cd old-repository.git
-$ git push --mirror https://github.com/bechbd/<new repo name>.git`
+All DataStax examples are hosted on the DataStax Examples GitHub repository where they can be accessed, reviewed, and updated by any community member with access.  
 
-3) Remove the temporary local repository you created in step 1.
+To submit an example:
 
-`$ cd ..
-$ rm -rf datastax-examples-template.git`
+   1. Create a new repository in the INSERT REPO HERE which can be cloned from XXXX to get all the basic structure needed
+   2. Read the [Style Guide](./docs/STYLE_GUIDE.md)
+   3. Prepare your submission according to the style guide
+   4. Ensure that your project has all the requirements needed to be accepted according to the [Requirements](./docs/REQUIREMENTS.md) guide.
+   5. Submit it here https://forms.gle/iqxydtgSKjBrL1Z86
+   6. After you have submitted your example you will be contacted by a designated representative which will help guide your submission through the [Review Process](./docs/REVIEW_PROCESS.md).
+   7. After the submission has been approved it will be published.
  
