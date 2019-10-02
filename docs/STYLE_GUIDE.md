@@ -54,6 +54,8 @@ A Code Snippet README doc has these major sections:
 * Body
   * Provides the details, use numbered steps as they are helpful.
   * Contains appropriate headings and subheadings as needed to make the content easy to read
+* Attribution
+  * A quick one liner giving credit to the creator/maintainer of the repo something like "Created and Maintained by [bechbd](https://github.com/bechbd)"
 
 ## Writing a Sample Document
 * Title
@@ -78,7 +80,8 @@ A Code Snippet README doc has these major sections:
   * End this section with any clean up required
     
     **Example** Don't forget to terminate the Apollo instance to prevent any additional charges
-
+* Attribution
+  * A quick one liner giving credit to the creator/maintainer of the repo something like "Created and Maintained by [bechbd](https://github.com/bechbd)"
 ## Writing a Project or Tool Document
 * Title
 * Overview
@@ -107,7 +110,8 @@ A Code Snippet README doc has these major sections:
   * End this section with any clean up required
     
     **Example** Don't forget to terminate the Apollo instance to prevent any additional charges
-
+* Attribution
+  * A quick one liner giving credit to the creator/maintainer of the repo something like "Created and Maintained by [bechbd](https://github.com/bechbd)"
 ## General Style Guidelines
 When writing content for this site it is fair to assume that readers are technical.  This means:
 
