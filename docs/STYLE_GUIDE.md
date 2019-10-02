@@ -64,6 +64,8 @@ A Code Snippet README doc has these major sections:
   * Up to a few paragraphs describing how the sample works
 * Objectives
   * A short bulleted list of what the reader is expected to learn through this example
+* Files
+  * A listing of the important files in the project that a customer would want to look at.  This can exclude well known files used for a project structure such as `pom.xml` for Java projects or `package.json` for NodeJS projects.
 * Setup and Running
   * List out any steps required to prepare for this example and how to achieve them if they do not
     
