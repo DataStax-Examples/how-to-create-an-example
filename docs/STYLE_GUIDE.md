@@ -62,7 +62,6 @@ A Code Snippet README doc has these major sections:
   * Up to a few paragraphs describing how the sample works
 * Objectives
   * A short bulleted list of what the reader is expected to learn through this example
-<<<<<<< HEAD
 * Setup and Running
   * List out any steps required to prepare for this example and how to achieve them if they do not
     
@@ -87,14 +86,7 @@ A Code Snippet README doc has these major sections:
   * Up to a few paragraphs describing how the sample works
 * Objectives
   * A short bulleted list of what the reader is expected to learn through this example
-<<<<<<< HEAD
 * Setup and Running
-=======
-* Before you Begin
-  * List out any steps required to prepare for this example and how to achieve them if they do not
-    
-    **Example** Have an Apollo Account, if you don't have one go [here]().
->>>>>>> 16c9e44c535256362f40443f33bc9dad7576a95a
   * List any Pre-requisites
     
     **Example** Java 8 must be installed
