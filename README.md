@@ -19,19 +19,44 @@ Properly planning an example will save a large amount of your time during the su
 
 ## Submitting an Example
 
-All DataStax examples are hosted on the DataStax Examples GitHub repository where they can be accessed, reviewed, and updated by any community member with access.  
+All DataStax examples are hosted on the DataStax Examples GitHub repository where they can be accessed, reviewed, and updated by any community member with access.  If you need access please contact Chris Splinter or Dave Bechberger.
 
-To create an example:
+To create an example from scratch:
 
    1. Create a new repository in the [DataStax Examples repo](https://github.com/DataStax-Examples) by clicking on the New Button.
    2. You can then choose to create an empty repo or clone the `datastax-examples-template` repo (recommended) which has all the basic files required.
-   3. You can then clone this repository locally using
+   3. You can then clone this repository locally using `git clone https://<INSERT REPOSITORY PATH>`
    4. Read the [Style Guide](./docs/STYLE_GUIDE.md)
    5. Prepare your submission according to the style guide
    6. Ensure that your project has all the requirements needed to be accepted according to the [Requirements](./docs/REQUIREMENTS.md) guide.
    7. Submit it here https://forms.gle/iqxydtgSKjBrL1Z86
    8. After you have submitted your example you will be contacted by a designated representative which will help guide your submission through the [Review Process](./docs/REVIEW_PROCESS.md).
    9. After the submission has been approved it will be published.
+
+To create an example from an existing repo where you want to copy the whole repository:
+
+   1. If the example is the entire repository then fork this repository into the [DataStax Examples repo](https://github.com/DataStax-Examples) by clicking on the fork and then selecting DataStax-Examples from the drop down.
+   3. You can then choose to create an empty repo or clone the `datastax-examples-template` repo (recommended) which has all the basic files required.
+   4. You can then clone this repository locally using `git clone https://<INSERT REPOSITORY PATH>`
+   5. Read the [Style Guide](./docs/STYLE_GUIDE.md)
+   6. Prepare your submission according to the style guide
+   7. Ensure that your project has all the requirements needed to be accepted according to the [Requirements](./docs/REQUIREMENTS.md) guide.
+   8. Submit it here https://forms.gle/iqxydtgSKjBrL1Z86
+   9. After you have submitted your example you will be contacted by a designated representative which will help guide your submission through the [Review Process](./docs/REVIEW_PROCESS.md).
+   10. After the submission has been approved it will be published.
+
+To create an example from an existing repo where you want to copy a portion of the repository:
+
+   1. Create a new repository in the [DataStax Examples repo](https://github.com/DataStax-Examples) by clicking on the New Button.
+   2. You can then choose to create an empty repo or clone the `datastax-examples-template` repo (recommended) which has all the basic files required.
+   3. You can then clone this forked repository locally using `git clone https://<INSERT REPOSITORY PATH>`
+   4. Copy the files from the original repository into the new repository
+   5. Read the [Style Guide](./docs/STYLE_GUIDE.md)
+   6. Prepare your submission according to the style guide
+   7. Ensure that your project has all the requirements needed to be accepted according to the [Requirements](./docs/REQUIREMENTS.md) guide.
+   8. Submit it here https://forms.gle/iqxydtgSKjBrL1Z86
+   9. After you have submitted your example you will be contacted by a designated representative which will help guide your submission through the [Review Process](./docs/REVIEW_PROCESS.md).
+   10. After the submission has been approved it will be published.
 
 To update an example:
 
