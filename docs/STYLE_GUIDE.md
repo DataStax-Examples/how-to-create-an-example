@@ -4,22 +4,29 @@ This guide is meant to provide a reference for how to create repositories meant 
 ## Types of Examples
 The first decision that needs to made when working on a project for submission is what type of project are you trying to build.  Projects within the DataStax Examples platform fall into one of four types:
 
-* Code Snippet - A short simple code sample to demonstrate a simple concept 
+* Snippets - Simple small code samples that demonstrate a best practice for a single task
+**Examples**
+ * Switching between connecting to Apollo or DSE in the same application
+ * DS Graph Studio notebooks
+
+* Tasks - These demonstrate common activities that developers do all the time and would like to be able to see working examples 
     
-    **Example** Connecting to a Apollo Cluster with Java
-
-* Sample - A smaller code project that demonstrates a more complex concept potentially involving multiple components
+    **Example** 
     
-    **Example** Using the Kafka Connector with Apollo
-
-* Project - A complete code project that demonstrates a full end to end work flow
-    
-    **Example** Building an E-Commerce site on Apollo
+    * Paging results in a web application
+    * Working with Reactive Programming in Java
 
 
-* Tool - A fully developed and tested tool for use within the DataStax product environment 
-  
-  **Example** Cassandra Schema Diff Tool
+* Applications - Full fledged end to end applications used to demonstrate best practices for a specific use case
+**Examples**
+    * Solution Factory for Customer 360
+    * Using DataStax for Graph Embeddings
+
+* Tools - Simple open source tools or add ons to existing tooling
+    **Examples**
+    * Add a new stack for DataStax Desktop
+    * Deployment Scripts for Ansible/Puppet/Chef
+
 
 ## File Organization in GitHib
 All submissions are expected to be on the `master` branch of the repository.  Any other branches may be made for bug fixes, features, or improvements but must be merged into the `master` branch for submission.
@@ -42,7 +49,7 @@ For an example base repository with all the required files already added you can
 
 ## README Guidelines
 
-## Writing a Code Snippet Document
+## Format of a README
 A Code Snippet README doc has these major sections:
 
 * Title
@@ -87,33 +94,50 @@ A Code Snippet README doc has these major sections:
 ## Writing a Project or Tool Document
 * Title
 * Overview
-  * Don't use any heading. Just start with the first sentence.
-  * Up to a few paragraphs describing how the sample works
-* Objectives
-  * A short bulleted list of what the reader is expected to learn through this example
-* Setup and Running
-  * List any Pre-requisites
-    
-    **Example** Java 8 must be installed
-  * Provides the details.
-  * Contains appropriate headings and subheadings as needed to make the content easy to read
-  * Use Screenshots when they clarify a point, they are not needed at ever step.  
-  * Describe what success looks like after every major step in the process
-      **Example** You should now see that "Connected" has been printed to the terminal window of your application
-  * End this section with any clean up required
-    **Example** Don't forget to terminate the Apollo instance to prevent any additional charges
-* How this Sample Works
-  * Provides the details on how the sample works including any architectural diagrams and explanation needed
-  * Contains appropriate headings and subheadings as needed to make the content easy to read
-  * Use Screenshots when they clarify a point, they are not needed at ever step.  
-  * Describe what success looks like after every major step in the process
-      
-      **Example** You should now see that "Connected" has been printed to the terminal window of your application
-  * End this section with any clean up required
-    
-    **Example** Don't forget to terminate the Apollo instance to prevent any additional charges
-* Attribution
-  * A quick one liner giving credit to the creator/maintainer of the repo something like "Created and Maintained by [bechbd](https://github.com/bechbd)"
+  A short few sentences describing what is the purpose of the example and what the user will learn
+
+e.g.
+This application shows how to use configure your NodeJs application to connect to DDAC/Cassandra/DSE or an Apollo database at runtime.
+
+Contributors: A listing of contributors to this repository linked to their github profile
+
+## Objectives
+A list of the top objectives that are being demonstrated by this sample
+
+e.g.
+* To demonstrate how to specify at runtime between a standard (DSE/DDAC/C*) client configuration and an Apollo configuration for the same application.
+  
+## Project Layout
+A list of key files within this repo and a short 1-2 sentence description of why they are important to the project
+
+e.g.
+* app.js - The main application file which contains all the logic to switch between the configurations
+
+## How this Sample Works
+A description of how this sample works and how it demonstrates the objectives outlined above
+
+## Setup and Running
+
+### Prerequisites
+The prerequisites required for this application to run
+
+e.g.
+* NodeJs version 8
+* A DSE 6.7 Cluster
+* Schema added to the cluster
+
+### Running
+The steps and configuration needed to run and build this application
+
+e.g.
+To run this application use the following command:
+
+`node app.js`
+
+This will produce the following output:
+
+`Connected to cluster with 3 host(s) ["XX.XX.XX.136:9042","XX.XX.XX.137:9042","XX.XX.XX.138:9042"]`
+
 ## General Style Guidelines
 When writing content for this site it is fair to assume that readers are technical.  This means:
 

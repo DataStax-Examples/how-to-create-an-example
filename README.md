@@ -13,7 +13,7 @@ A good submission is a well thought out example of a particular piece of functio
 3) What assumptions have I made about my audience?  These need to be stated at the beginning.
 4) Why does the reader care about this example? This is important information to include in the introductory paragraph.
 5) How can I introduce concepts and ideas in a way that goes from the general concept to the specifics?
-6) Is there anything missing from the content?  Is there anything unneccesary to the content?
+6) Is there anything missing from the content?  Is there anything unnecessary to the content?
 
 Properly planning an example will save a large amount of your time during the submission and review process so we highly encourage it.
 
