@@ -5,24 +5,27 @@ This guide is meant to provide a reference for how to create repositories meant 
 The first decision that needs to made when working on a project for submission is what type of project are you trying to build.  Projects within the DataStax Examples platform fall into one of four types:
 
 * Snippets - Simple small code samples that demonstrate a best practice for a single task
-**Examples**
- * Switching between connecting to Apollo or DSE in the same application
- * DS Graph Studio notebooks
+
+    **Examples**
+    
+    * Switching between connecting to Apollo or DSE in the same application
+    * DS Graph Studio notebooks
 
 * Tasks - These demonstrate common activities that developers do all the time and would like to be able to see working examples 
     
-    **Example** 
-    
+    **Examples** 
     * Paging results in a web application
     * Working with Reactive Programming in Java
 
 
 * Applications - Full fledged end to end applications used to demonstrate best practices for a specific use case
-**Examples**
+
+    **Examples**
     * Solution Factory for Customer 360
     * Using DataStax for Graph Embeddings
 
 * Tools - Simple open source tools or add ons to existing tooling
+
     **Examples**
     * Add a new stack for DataStax Desktop
     * Deployment Scripts for Ansible/Puppet/Chef
@@ -113,7 +116,7 @@ A list of key files within this repo and a short 1-2 sentence description of why
 e.g.
 * app.js - The main application file which contains all the logic to switch between the configurations
 
-## How this Sample Works
+## How this Works
 A description of how this sample works and how it demonstrates the objectives outlined above
 
 ## Setup and Running
