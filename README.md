@@ -1,8 +1,10 @@
 # How to Create an Example for the DataStax Examples Platform
 ## Introduction
-Beyond the official documentation there are endless possibilities for combining tools, platforms, languages and products to build really powerful and amazing products on top of the DataStax suite of products. Ultimately, everything we build is a unique combination of these elements, but most projects share pieces in common so by submitting and example you can share your experience and help others who are solving similar problems.
+Beyond the official documentation, there are endless possibilities for combining tools, platforms, languages and products to build really powerful and amazing things on top of Apache Cassandra and DataStax products. Ultimately, everything we build is a unique combination of these elements, but most projects share pieces in common. By submitting an example, you can share your experience and help others who are solving similar problems.
 
-Examples can be short code snippets or complete end to end workflow projects.  In every case they provide context for using one or more of the DataStax Suite of products in the real world and show how to solve a particular problem not discussed in the official documentation.
+Examples can be short code snippets, complete end to end workflow projects, custom tools for a given task, DataStax Studio notebooks, or anything in between. 
+
+To contribute directly to DataStax Examples, please send an email with your Github username to examples@datastax.com
 
 ## What Makes a Good Example
 
@@ -19,9 +21,9 @@ Properly planning an example will save a large amount of your time during the su
 
 ## Submitting an Example
 
-All DataStax examples are hosted on the DataStax Examples GitHub repository where they can be accessed, reviewed, and updated by any community member with access.  If you need access please contact Chris Splinter or Dave Bechberger.
+All DataStax examples are hosted on the DataStax Examples GitHub repository where they can be accessed, reviewed, and updated by any community member with access.
 
-To create an example from scratch:
+#### To create an example from scratch:
 
    1. Create a new repository in the [DataStax Examples repo](https://github.com/DataStax-Examples) by clicking on the New Button.
    2. You can then choose to create an empty repo or clone the `datastax-examples-template` repo (recommended) which has all the basic files required.
@@ -33,7 +35,7 @@ To create an example from scratch:
    8. After you have submitted your example you will be contacted by a designated representative which will help guide your submission through the [Review Process](./docs/REVIEW_PROCESS.md).
    9. After the submission has been approved it will be published.
 
-To create an example from an existing repo where you want to copy the whole repository:
+#### To create an example from an existing repo where you want to copy the whole repository:
 
    1. If the example is the entire repository then fork this repository into the [DataStax Examples repo](https://github.com/DataStax-Examples) by clicking on the fork and then selecting DataStax-Examples from the drop down.
    3. You can then choose to create an empty repo or clone the `datastax-examples-template` repo (recommended) which has all the basic files required.
@@ -45,7 +47,7 @@ To create an example from an existing repo where you want to copy the whole repo
    9. After you have submitted your example you will be contacted by a designated representative which will help guide your submission through the [Review Process](./docs/REVIEW_PROCESS.md).
    10. After the submission has been approved it will be published.
 
-To create an example from an existing repo where you want to copy a portion of the repository:
+#### To create an example from an existing repo where you want to copy a portion of the repository:
 
    1. Create a new repository in the [DataStax Examples repo](https://github.com/DataStax-Examples) by clicking on the New Button.
    2. You can then choose to create an empty repo or clone the `datastax-examples-template` repo (recommended) which has all the basic files required.
@@ -58,7 +60,7 @@ To create an example from an existing repo where you want to copy a portion of t
    9. After you have submitted your example you will be contacted by a designated representative which will help guide your submission through the [Review Process](./docs/REVIEW_PROCESS.md).
    10. After the submission has been approved it will be published.
 
-To update an example:
+#### To update an example:
 
-All DataStax examples are updated based on a pull requests.  Email xxx@datastax.com with the example being updated, the PR number, and a brief description of the changes.  A reviewer will then be assigned to review your change and merge it into the `master` branch.
+All DataStax examples are updated based on a pull requests.  Email examples@datastax.com with the example being updated, the PR number, and a brief description of the changes.  A reviewer will then be assigned to review your change and merge it into the `master` branch.
  
