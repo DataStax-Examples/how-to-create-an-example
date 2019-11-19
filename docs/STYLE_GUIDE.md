@@ -9,7 +9,7 @@ The first decision that needs to made when working on a project for submission i
     **Examples**
     
     * Switching between connecting to Apollo or DSE in the same application
-    * DS Graph Studio notebooks
+    * DataStax Graph Studio notebooks
 
 * Tasks - These demonstrate common activities that developers do all the time and would like to be able to see working examples 
     
@@ -51,50 +51,8 @@ While no explicit folder structure is specified their are a few files which are 
 For an example base repository with all the required files already added you can use the template repo available [here](https://github.com/bechbd/datastax-examples-template).
 
 ## README Guidelines
+All of the READMEs in DataStax Examples follow the same format outlined in the [datastax-examples-template](https://github.com/bechbd/datastax-examples-template)
 
-## Format of a README
-A Code Snippet README doc has these major sections:
-
-* Title
-* Overview
-  * Don't use any heading. Just start with the first sentence.
-  * Up to a few paragraphs describing how the sample works
-* Objectives
-  * A short bulleted list of what the reader is expected to learn through this example
-* Body
-  * Provides the details, use numbered steps as they are helpful.
-  * Contains appropriate headings and subheadings as needed to make the content easy to read
-* Attribution
-  * A quick one liner giving credit to the creator/maintainer of the repo something like "Created and Maintained by [bechbd](https://github.com/bechbd)"
-
-## Writing a Sample Document
-* Title
-* Overview
-  * Don't use any heading. Just start with the first sentence.
-  * Up to a few paragraphs describing how the sample works
-* Objectives
-  * A short bulleted list of what the reader is expected to learn through this example
-* Files
-  * A listing of the important files in the project that a customer would want to look at.  This can exclude well known files used for a project structure such as `pom.xml` for Java projects or `package.json` for NodeJS projects.
-* Setup and Running
-  * List out any steps required to prepare for this example and how to achieve them if they do not
-    
-    **Example** Have an Apollo Account, if you don't have one go [here]().
-  * List any Pre-requisites
-    
-    **Example** Java 8 must be installed
-  * Provides the details.
-  * Contains appropriate headings and subheadings as needed to make the content easy to read
-  * Use Screenshots when they clarify a point, they are not needed at ever step.  
-  * Describe what success looks like after every major step in the process
-      
-      **Example** You should now see that "Connected" has been printed to the terminal window of your application
-  * End this section with any clean up required
-    
-    **Example** Don't forget to terminate the Apollo instance to prevent any additional charges
-* Attribution
-  * A quick one liner giving credit to the creator/maintainer of the repo something like "Created and Maintained by [bechbd](https://github.com/bechbd)"
-## Writing a Project or Tool Document
 * Title
 * Overview
   A short few sentences describing what is the purpose of the example and what the user will learn
@@ -102,7 +60,7 @@ A Code Snippet README doc has these major sections:
 e.g.
 This application shows how to use configure your NodeJs application to connect to DDAC/Cassandra/DSE or an Apollo database at runtime.
 
-Contributors: A listing of contributors to this repository linked to their github profile
+Contributor(s): A listing of contributors to this repository linked to their github profile
 
 ## Objectives
 A list of the top objectives that are being demonstrated by this sample
@@ -142,6 +100,8 @@ This will produce the following output:
 `Connected to cluster with 3 host(s) ["XX.XX.XX.136:9042","XX.XX.XX.137:9042","XX.XX.XX.138:9042"]`
 
 ## General Style Guidelines
+See Google Dev Docs Guide for inspiration: https://developers.google.com/style/tone
+
 When writing content for this site it is fair to assume that readers are technical.  This means:
 
 * Write for a technical audience.  There is no need to explain concepts or terminology that are common within the software development community.
@@ -150,9 +110,9 @@ When writing content for this site it is fair to assume that readers are technic
 * Use active voice when possible in the content
     
     **Active (Preferred)** "The Client writes a record to the database"
-    
+   
     **Passive (Discouraged)** "A record was written to the database by the client"
-* Speak to the reader in an informal way and use second person pronouns (e.g. you) not first person (e.g. I or we).
+* Speak to the reader in an informal way and use second person pronouns (e.g. you) not first person (e.g. I or we). 
 * Speak in the present tense 
 
 ### Markdown Usage
