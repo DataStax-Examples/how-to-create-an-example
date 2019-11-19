@@ -4,7 +4,9 @@ Beyond the official documentation, there are endless possibilities for combining
 
 Examples can be short code snippets, complete end to end workflow projects, custom tools for a given task, DataStax Studio notebooks, or anything in between. 
 
-To contribute directly to DataStax Examples, please send an email with your Github username to examples@datastax.com
+**To submit an idea for a new example:** [fill out the form](https://docs.google.com/forms/d/e/1FAIpQLSfmYWbEo0Bh65wwgjhIpnXyODWfX3e99LmJYzTfkVLBVC96oQ/viewform)
+
+**To contribute directly to DataStax Examples:** send an email with your Github username to examples@datastax.com
 
 ## What Makes a Good Example
 
